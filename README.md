@@ -30,28 +30,6 @@ The dataset contains information about Zepto products, including:
 - Weight in Grams
 - Out of Stock
 - Quantity
-  
-## Analysis Performed
-
-- Conducted data cleaning by identifying and removing products with invalid pricing information.
-- Explored product inventory across multiple categories.
-- Analyzed stock availability and out-of-stock products.
-- Identified top discounted products and discount patterns.
-- Evaluated category-wise pricing and discount trends.
-- Calculated estimated revenue contribution by category.
-- Performed product value analysis using price-per-gram metrics.
-- Categorized products based on weight and inventory characteristics.
-I- nvestigated premium products and inventory distribution
-
-## Key Insights
-- Most products were available in stock, indicating strong inventory coverage.
-- A small number of records contained invalid pricing data and were removed during data cleaning.
-- Discount strategies varied significantly across product categories.
-- Certain categories contributed a larger share of estimated revenue.
-- Premium-priced products generally received lower discounts compared to regular products.
-- Value-for-money products were identified through price-per-unit analysis.
-- Inventory volume was concentrated within a few major categories.
-- Out-of-stock products represented potential missed sales opportunities.
 
 ## Skills Demonstrated
 - Data Cleaning
@@ -62,16 +40,39 @@ I- nvestigated premium products and inventory distribution
 - Business Analytics
 - Inventory Analysis
 - Retail Data Analysis
+  
+## Analysis Performed
+
+- Explored and analyzed different product categories available in the inventory.
+- Examined product availability by comparing in-stock and out-of-stock items.
+- Identified the top 10 best-value products based on discount percentage.
+- Analyzed high-MRP products that were currently out of stock.
+- Calculated estimated revenue contribution for each product category.
+- Investigated products with MRP greater than ₹500 and discounts below 10%.
+- Identified the top 5 categories offering the highest average discount percentages.
+- Computed price-per-gram metrics to determine the best-value products above 100g.
+- Segmented products into Low, Medium, and Bulk categories based on weight.
+- Calculated total inventory weight across all product categories.
+
+## Key Insights
+- Product inventory is distributed across multiple categories
+- Most products are available in stock, while a smaller proportion of products are out of stock.
+- Several products offer exceptionally high discounts, creating strong value-for-money opportunities.
+- Some premium products with high MRP were unavailable, indicating potential inventory gaps and missed sales opportunities
+- Revenue contribution is concentrated in a few high-performing categories.
+- Categories such as packaged foods and household essentials tend to provide higher average discounts.
+- Products with lower price-per-gram ratios offer better customer value and competitive pricing.
+- Inventory weight is unevenly distributed across categories, affecting storage and logistics requirements.
 
 ## Business Recommendations
-- Prioritize restocking high-demand products that are currently out of stock.
-- Increase promotional efforts for premium products with low discounts to improve sales.
-- Focus marketing campaigns on categories generating the highest revenue.
-- Expand inventory in high-performing categories to meet customer demand.
-- Highlight highly discounted and value-for-money products to attract price-sensitive customers.
-- Optimize warehouse and logistics planning using category-wise inventory analysis.
-- Regularly monitor pricing anomalies and maintain data quality standards.
-- Use category-level discount insights to design targeted promotional strategies.
-
+- Prioritize replenishment of high-MRP out-of-stock products to reduce potential revenue loss.
+- Increase promotional visibility for highly discounted products to boost customer engagement and sales.
+- Focus inventory planning on categories generating the highest estimated revenue.
+- Expand stock levels in high-performing categories to meet customer demand.
+- Leverage high-discount categories in marketing campaigns to attract price-sensitive customers.
+- Promote products with the best price-per-gram value as cost-effective purchasing options.
+- Optimize warehouse utilization and logistics based on category-wise inventory weight distribution.
+- Continuously monitor pricing and discount strategies to maintain competitiveness and profitability.
+  
 ## Project Outcome
-Developed a comprehensive SQL-based retail analytics solution for Zepto product data, uncovering insights related to pricing, discounts, inventory management, and category performance. The analysis provided actionable recommendations to improve revenue generation, stock management, and customer value proposition.
+Developed a SQL-based retail analytics solution using Zepto product inventory data to analyze pricing, discounts, stock availability, category performance, and revenue opportunities. The project generated actionable business insights that can support inventory optimization, pricing strategy, and revenue growth decisions.
